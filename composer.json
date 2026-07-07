@@ -1,0 +1,40 @@
+{
+  "name": "teknyo/lk-nic-validator-php",
+  "description": "Sri Lanka NIC number validator and details extractor for PHP",
+  "type": "library",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Teknyo\\NICValidator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Teknyo\\NICValidator\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "scripts": {
+    "test": "phpunit tests/",
+    "test:watch": "phpunit tests/ --colors=always"
+  },
+  "keywords": [
+    "sri-lanka",
+    "nic",
+    "validator",
+    "national-id",
+    "php"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Teknyo.lk",
+      "email": "info@teknyo.lk"
+    }
+  ]
+}
