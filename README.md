@@ -324,17 +324,6 @@ composer install
 composer test
 ```
 
-Or from the monorepo root:
-
-```bash
-npm run php:test
-```
-
-## Requirements
-
-- PHP ^8.4
-- PHPUnit ^11.0 (for testing)
-
 ## License
 
 MIT
